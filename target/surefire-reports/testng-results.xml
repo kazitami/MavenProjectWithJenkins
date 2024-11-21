@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="39" passed="30" failed="9" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-19T19:33:40 EST" name="Suite" finished-at="2024-11-19T19:38:23 EST" duration-ms="283339">
+    <groups>
+    </groups>
+    <test started-at="2024-11-19T19:33:40 EST" name="Test" finished-at="2024-11-19T19:38:23 EST" duration-ms="283339">
+      <class name="TestNG_Multiple_Suites_sanity.sanity_TestCases_login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:40 EST" name="setup" finished-at="2024-11-19T19:33:45 EST" duration-ms="4808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:45 EST" name="verifyLoginWithValidCredentials" finished-at="2024-11-19T19:33:46 EST" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:46 EST" name="tearDown" finished-at="2024-11-19T19:33:46 EST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:46 EST" name="setup" finished-at="2024-11-19T19:33:50 EST" duration-ms="4167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:50 EST" name="verifyLoginWithInvalidCredentials" finished-at="2024-11-19T19:33:51 EST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:51 EST" name="tearDown" finished-at="2024-11-19T19:33:51 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:51 EST" name="setup" finished-at="2024-11-19T19:33:55 EST" duration-ms="4139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:3, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:55 EST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2024-11-19T19:33:56 EST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:56 EST" name="tearDown" finished-at="2024-11-19T19:33:56 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:33:56 EST" name="setup" finished-at="2024-11-19T19:34:00 EST" duration-ms="4136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:4, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:34:00 EST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2024-11-19T19:34:11 EST" duration-ms="10610" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca42e3533ea2a853df4be97897d92a33, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54631/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca42e3533ea2a853df4be97897d92a33]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca42e3533ea2a853df4be97897d92a33, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54631}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54631/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ca42e3533ea2a853df4be97897d92a33
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_sanity.sanity_TestCases_login.verifyLoginWithInvalidEmailandValidPassword(sanity_TestCases_login.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailandValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:34:11 EST" name="tearDown" finished-at="2024-11-19T19:34:11 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:34:11 EST" name="setup" finished-at="2024-11-19T19:34:15 EST" duration-ms="4002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:34:15 EST" name="verifyLoginWithNoCredentials" finished-at="2024-11-19T19:34:16 EST" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_login@49d904ec]" started-at="2024-11-19T19:34:16 EST" name="tearDown" finished-at="2024-11-19T19:34:16 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_sanity.sanity_TestCases_login -->
+      <class name="TestNG_Multiple_Suites_regression.RegressionTestCases_login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:47 EST" name="setup" finished-at="2024-11-19T19:35:51 EST" duration-ms="4161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:51 EST" name="verifyLoginWithValidCredentials" finished-at="2024-11-19T19:35:52 EST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:52 EST" name="tearDown" finished-at="2024-11-19T19:35:52 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:52 EST" name="setup" finished-at="2024-11-19T19:35:57 EST" duration-ms="4355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:57 EST" name="verifyLoginWithInvalidCredentials" finished-at="2024-11-19T19:35:57 EST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:57 EST" name="tearDown" finished-at="2024-11-19T19:35:57 EST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:35:57 EST" name="setup" finished-at="2024-11-19T19:36:02 EST" duration-ms="4218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:3, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:02 EST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2024-11-19T19:36:02 EST" duration-ms="666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:02 EST" name="tearDown" finished-at="2024-11-19T19:36:02 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:02 EST" name="setup" finished-at="2024-11-19T19:36:06 EST" duration-ms="4008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:4, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:06 EST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2024-11-19T19:36:17 EST" duration-ms="10579" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16449c29a44166fb1ba2c513fcc24a99, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54913/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16449c29a44166fb1ba2c513fcc24a99]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [16449c29a44166fb1ba2c513fcc24a99, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54913}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54913/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 16449c29a44166fb1ba2c513fcc24a99
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_regression.RegressionTestCases_login.verifyLoginWithInvalidEmailandValidPassword(RegressionTestCases_login.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailandValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:17 EST" name="tearDown" finished-at="2024-11-19T19:36:17 EST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:17 EST" name="setup" finished-at="2024-11-19T19:36:21 EST" duration-ms="4201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:21 EST" name="verifyLoginWithNoCredentials" finished-at="2024-11-19T19:36:22 EST" duration-ms="661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_login@50b472aa]" started-at="2024-11-19T19:36:22 EST" name="tearDown" finished-at="2024-11-19T19:36:22 EST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_regression.RegressionTestCases_login -->
+      <class name="TestNG_Multiple_Suites_smoke.Smoke_TestCases_register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:48 EST" name="setup" finished-at="2024-11-19T19:34:52 EST" duration-ms="4587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithNoInputs()[pri:1, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:52 EST" name="registerWithNoInputs" finished-at="2024-11-19T19:34:53 EST" duration-ms="550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNoInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:53 EST" name="tearDown" finished-at="2024-11-19T19:34:53 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:53 EST" name="setup" finished-at="2024-11-19T19:34:58 EST" duration-ms="4874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithMandatoryFields()[pri:2, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:58 EST" name="registerWithMandatoryFields" finished-at="2024-11-19T19:34:59 EST" duration-ms="1102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:59 EST" name="tearDown" finished-at="2024-11-19T19:34:59 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:34:59 EST" name="setup" finished-at="2024-11-19T19:35:04 EST" duration-ms="5388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllDetails()[pri:3, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:04 EST" name="registerWithAllDetails" finished-at="2024-11-19T19:35:06 EST" duration-ms="1230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:06 EST" name="tearDown" finished-at="2024-11-19T19:35:06 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:06 EST" name="setup" finished-at="2024-11-19T19:35:10 EST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithExistingEmail()[pri:4, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:10 EST" name="registerWithExistingEmail" finished-at="2024-11-19T19:35:11 EST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:11 EST" name="tearDown" finished-at="2024-11-19T19:35:11 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:11 EST" name="setup" finished-at="2024-11-19T19:35:15 EST" duration-ms="4356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithWrongConfirmPassword()[pri:5, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:15 EST" name="registerWithWrongConfirmPassword" finished-at="2024-11-19T19:35:16 EST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithWrongConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_register@1817d444]" started-at="2024-11-19T19:35:16 EST" name="tearDown" finished-at="2024-11-19T19:35:16 EST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_smoke.Smoke_TestCases_register -->
+      <class name="TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct">
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:16 EST" name="registerassertions" finished-at="2024-11-19T19:34:20 EST" duration-ms="3846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:20 EST" name="verifySearchWithValidProduct" finished-at="2024-11-19T19:34:30 EST" duration-ms="10016" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [823ea42ab0a0edc480ba486c0b823946, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54667}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54667/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 823ea42ab0a0edc480ba486c0b823946]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [823ea42ab0a0edc480ba486c0b823946, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54667}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54667/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 823ea42ab0a0edc480ba486c0b823946
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct.verifySearchWithValidProduct(sanity_TestCases_searchProduct.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:30 EST" name="tearDown" finished-at="2024-11-19T19:34:30 EST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:30 EST" name="registerassertions" finished-at="2024-11-19T19:34:33 EST" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:33 EST" name="verifySearchWithInvalidProduct" finished-at="2024-11-19T19:34:43 EST" duration-ms="10006" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f321c9f12d9b456e1fd8a95dc973d36, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54686/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f321c9f12d9b456e1fd8a95dc973d36]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1f321c9f12d9b456e1fd8a95dc973d36, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54686}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54686/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1f321c9f12d9b456e1fd8a95dc973d36
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct.verifySearchWithInvalidProduct(sanity_TestCases_searchProduct.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:43 EST" name="tearDown" finished-at="2024-11-19T19:34:43 EST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:43 EST" name="registerassertions" finished-at="2024-11-19T19:34:47 EST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:47 EST" name="verifySearchWithNoProduct" finished-at="2024-11-19T19:34:48 EST" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct@50a638b5]" started-at="2024-11-19T19:34:48 EST" name="tearDown" finished-at="2024-11-19T19:34:48 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_sanity.sanity_TestCases_searchProduct -->
+      <class name="TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct">
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:36:49 EST" name="registerassertions" finished-at="2024-11-19T19:36:52 EST" duration-ms="3774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:36:52 EST" name="verifySearchWithValidProduct" finished-at="2024-11-19T19:37:02 EST" duration-ms="10013" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e12e85b4a0abdd896621c5c0a4f38bdb, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55034}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55034/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e12e85b4a0abdd896621c5c0a4f38bdb]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e12e85b4a0abdd896621c5c0a4f38bdb, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55034}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55034/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e12e85b4a0abdd896621c5c0a4f38bdb
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct.verifySearchWithValidProduct(RegressionTestCases_searchProduct.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:02 EST" name="tearDown" finished-at="2024-11-19T19:37:02 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:02 EST" name="registerassertions" finished-at="2024-11-19T19:37:06 EST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:06 EST" name="verifySearchWithInvalidProduct" finished-at="2024-11-19T19:37:16 EST" duration-ms="10006" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6477a662543c2940cee678026fbfc393, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55054/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6477a662543c2940cee678026fbfc393]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6477a662543c2940cee678026fbfc393, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55054/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6477a662543c2940cee678026fbfc393
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct.verifySearchWithInvalidProduct(RegressionTestCases_searchProduct.java:29)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:16 EST" name="tearDown" finished-at="2024-11-19T19:37:16 EST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:16 EST" name="registerassertions" finished-at="2024-11-19T19:37:20 EST" duration-ms="3682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:20 EST" name="verifySearchWithNoProduct" finished-at="2024-11-19T19:37:20 EST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct@1725dc0f]" started-at="2024-11-19T19:37:20 EST" name="tearDown" finished-at="2024-11-19T19:37:20 EST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_regression.RegressionTestCases_searchProduct -->
+      <class name="TestNG_Multiple_Suites_sanity.sanity_TestCases_register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:22 EST" name="setup" finished-at="2024-11-19T19:36:26 EST" duration-ms="4397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithNoInputs()[pri:1, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:26 EST" name="registerWithNoInputs" finished-at="2024-11-19T19:36:27 EST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNoInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:27 EST" name="tearDown" finished-at="2024-11-19T19:36:27 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:27 EST" name="setup" finished-at="2024-11-19T19:36:31 EST" duration-ms="4496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithMandatoryFields()[pri:2, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:31 EST" name="registerWithMandatoryFields" finished-at="2024-11-19T19:36:33 EST" duration-ms="1128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:33 EST" name="tearDown" finished-at="2024-11-19T19:36:33 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:33 EST" name="setup" finished-at="2024-11-19T19:36:37 EST" duration-ms="4414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllDetails()[pri:3, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:37 EST" name="registerWithAllDetails" finished-at="2024-11-19T19:36:38 EST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:38 EST" name="tearDown" finished-at="2024-11-19T19:36:38 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:38 EST" name="setup" finished-at="2024-11-19T19:36:43 EST" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithExistingEmail()[pri:4, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:43 EST" name="registerWithExistingEmail" finished-at="2024-11-19T19:36:43 EST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:43 EST" name="tearDown" finished-at="2024-11-19T19:36:44 EST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:44 EST" name="setup" finished-at="2024-11-19T19:36:48 EST" duration-ms="4303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithWrongConfirmPassword()[pri:5, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:48 EST" name="registerWithWrongConfirmPassword" finished-at="2024-11-19T19:36:48 EST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithWrongConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_sanity.sanity_TestCases_register@31368b99]" started-at="2024-11-19T19:36:48 EST" name="tearDown" finished-at="2024-11-19T19:36:49 EST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_sanity.sanity_TestCases_register -->
+      <class name="TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct">
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:16 EST" name="registerassertions" finished-at="2024-11-19T19:35:20 EST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:20 EST" name="verifySearchWithValidProduct" finished-at="2024-11-19T19:35:30 EST" duration-ms="10037" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d559f99d61d3a9a40cc09b59d5cec09, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54806/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d559f99d61d3a9a40cc09b59d5cec09]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8d559f99d61d3a9a40cc09b59d5cec09, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54806/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8d559f99d61d3a9a40cc09b59d5cec09
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct.verifySearchWithValidProduct(Smoke_TestCases_searchProduct.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:30 EST" name="tearDown" finished-at="2024-11-19T19:35:30 EST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:30 EST" name="registerassertions" finished-at="2024-11-19T19:35:32 EST" duration-ms="1982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:32 EST" name="verifySearchWithInvalidProduct" finished-at="2024-11-19T19:35:42 EST" duration-ms="10061" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8a77fe5bf002a4bb413f84bb1a984d6, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54826/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a77fe5bf002a4bb413f84bb1a984d6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='Search']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8a77fe5bf002a4bb413f84bb1a984d6, findElement {using=name, value=Search}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54826/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8a77fe5bf002a4bb413f84bb1a984d6
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct.verifySearchWithInvalidProduct(Smoke_TestCases_searchProduct.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:42 EST" name="tearDown" finished-at="2024-11-19T19:35:42 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerassertions()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:42 EST" name="registerassertions" finished-at="2024-11-19T19:35:46 EST" duration-ms="3652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerassertions -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:46 EST" name="verifySearchWithNoProduct" finished-at="2024-11-19T19:35:47 EST" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct@6ca8564a]" started-at="2024-11-19T19:35:47 EST" name="tearDown" finished-at="2024-11-19T19:35:47 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_smoke.Smoke_TestCases_searchProduct -->
+      <class name="TestNG_Multiple_Suites_regression.RegressionTestCases_register">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:37:56 EST" name="setup" finished-at="2024-11-19T19:38:01 EST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithNoInputs()[pri:1, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:01 EST" name="registerWithNoInputs" finished-at="2024-11-19T19:38:01 EST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithNoInputs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:01 EST" name="tearDown" finished-at="2024-11-19T19:38:01 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:01 EST" name="setup" finished-at="2024-11-19T19:38:06 EST" duration-ms="4500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithMandatoryFields()[pri:2, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:06 EST" name="registerWithMandatoryFields" finished-at="2024-11-19T19:38:07 EST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:07 EST" name="tearDown" finished-at="2024-11-19T19:38:07 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:07 EST" name="setup" finished-at="2024-11-19T19:38:12 EST" duration-ms="4401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithAllDetails()[pri:3, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:12 EST" name="registerWithAllDetails" finished-at="2024-11-19T19:38:13 EST" duration-ms="1135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:13 EST" name="tearDown" finished-at="2024-11-19T19:38:13 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:13 EST" name="setup" finished-at="2024-11-19T19:38:17 EST" duration-ms="4286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithExistingEmail()[pri:4, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:17 EST" name="registerWithExistingEmail" finished-at="2024-11-19T19:38:18 EST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:18 EST" name="tearDown" finished-at="2024-11-19T19:38:18 EST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:18 EST" name="setup" finished-at="2024-11-19T19:38:22 EST" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerWithWrongConfirmPassword()[pri:5, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:22 EST" name="registerWithWrongConfirmPassword" finished-at="2024-11-19T19:38:23 EST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithWrongConfirmPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_regression.RegressionTestCases_register@4ac3c60d]" started-at="2024-11-19T19:38:23 EST" name="tearDown" finished-at="2024-11-19T19:38:23 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_regression.RegressionTestCases_register -->
+      <class name="TestNG_Multiple_Suites_smoke.Smoke_TestCases_login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:20 EST" name="setup" finished-at="2024-11-19T19:37:25 EST" duration-ms="4276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:25 EST" name="verifyLoginWithValidCredentials" finished-at="2024-11-19T19:37:26 EST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:26 EST" name="tearDown" finished-at="2024-11-19T19:37:26 EST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:26 EST" name="setup" finished-at="2024-11-19T19:37:30 EST" duration-ms="4439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:30 EST" name="verifyLoginWithInvalidCredentials" finished-at="2024-11-19T19:37:31 EST" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:31 EST" name="tearDown" finished-at="2024-11-19T19:37:31 EST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:31 EST" name="setup" finished-at="2024-11-19T19:37:36 EST" duration-ms="4250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailandInvalidPassword()[pri:3, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:36 EST" name="verifyLoginWithValidEmailandInvalidPassword" finished-at="2024-11-19T19:37:36 EST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailandInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:36 EST" name="tearDown" finished-at="2024-11-19T19:37:36 EST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:36 EST" name="setup" finished-at="2024-11-19T19:37:40 EST" duration-ms="3974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailandValidPassword()[pri:4, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:40 EST" name="verifyLoginWithInvalidEmailandValidPassword" finished-at="2024-11-19T19:37:51 EST" duration-ms="10573" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d06b46f61e3294d63fcbfe308f81629, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55141/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d06b46f61e3294d63fcbfe308f81629]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Warning: No match for E-Mail Address and/or Password.']"}
+  (Session info: chrome=131.0.6778.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.0.1', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9d06b46f61e3294d63fcbfe308f81629, findElement {using=xpath, value=//div[text()='Warning: No match for E-Mail Address and/or Password.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.71, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: /var/folders/2k/px6tbthn70x...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55141/devtoo..., se:cdpVersion: 131.0.6778.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d06b46f61e3294d63fcbfe308f81629
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at TestNG_Multiple_Suites_smoke.Smoke_TestCases_login.verifyLoginWithInvalidEmailandValidPassword(Smoke_TestCases_login.java:57)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailandValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:51 EST" name="tearDown" finished-at="2024-11-19T19:37:51 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:51 EST" name="setup" finished-at="2024-11-19T19:37:56 EST" duration-ms="4525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:56 EST" name="verifyLoginWithNoCredentials" finished-at="2024-11-19T19:37:56 EST" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG_Multiple_Suites_smoke.Smoke_TestCases_login@3911c2a7]" started-at="2024-11-19T19:37:56 EST" name="tearDown" finished-at="2024-11-19T19:37:56 EST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG_Multiple_Suites_smoke.Smoke_TestCases_login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
